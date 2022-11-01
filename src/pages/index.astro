@@ -10,6 +10,8 @@ import Banner from "../components/Banner.astro";
 import Testimonial from "../components/Testimonial.astro";
 import EmailSend from "../components/EmailSend.astro";
 import ShortCarousel from "./user/ShortCarousel.astro";
+import ThreeCards from "../components/ThreeCards.astro";
+import BannerImage from "../components/BannerImage.astro";
 ---
 
 <Layout title="M.A Products">
@@ -20,13 +22,15 @@ import ShortCarousel from "./user/ShortCarousel.astro";
       <!-- <a href="/user/">Users</a> 
 		<a href="/user/about-us">About us</a> -->
       <OurTrending />
-      <OurProducts />
+      <OurProducts /> 
       <!-- <Blog /> -->
+      <!-- <BannerImage/>                      -->
       <Testimonial/>
+      <ThreeCards/>
       <EmailSend />
-      <div class="flex justify-center items-center">
-      <!-- <ShortCarousel/>   -->
-      </div>
+      <!-- <div class="mb-96 mt-72 relative flex justify-center items-center">
+      <ShortCarousel/>  
+      </div> -->
       <Footer />
     </div>
   </main>
